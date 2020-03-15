@@ -105,42 +105,83 @@ class BankAccount
 
 class Car
 {
-    public $start;
-    public $break;
+    public function start()
+    {
+        
+    }
+
+    public function break()
+    {
+        
+    }
+    
 }
 
 class Dog
 {
-    public $run;
-    public $bark;
+    public function run()
+    {
+
+    }
+    public function bark()
+    {
+
+    }
 }
 
 class Product
 {
-    public $sale;
-    public $review;
+    public function sale()
+    {
+
+    }
+    
+    public function review()
+    {
+
+    }
 }
 
 class Shop
 {
-    public $open;
-    public $close;
+    public function open()
+    {
+
+    }
+
+    public function close()
+    {
+
+    }
 }
 
 class Dice
 {
-    public $view;
-    public $roll;
+    public function view()
+    {
+
+    }
+
+    public function roll()
+    {
+
+    }
 
 }
 
 class Lock
 {
-    public $unlock;    
+    public function unlock()
+    {
+
+    }    
 }
 
 class Alarm
 {
-    public $ring;    
+    public function ring()
+    {
+
+    }  
 }
 
